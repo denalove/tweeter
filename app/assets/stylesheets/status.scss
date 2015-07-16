@@ -1,3 +1,16 @@
 // Place all the styles related to the status controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+body {
+	color: gray;
+	font-family: Georgia;
+}
+a {
+	margin-right: 1em;
+
+}
+a:hover {
+	color: red;
+}
