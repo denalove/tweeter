@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  get 'status/index'
+  get 'status', to: 'status#index', page: 1
+  get 'status/page/:page', to: 'status#index'
 
   get 'status/show'
 
